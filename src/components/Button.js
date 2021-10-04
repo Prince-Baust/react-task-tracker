@@ -1,6 +1,6 @@
 
 
-const Button = ({color, text}) => <button style={{backgroundColor: color}} className="btn">{text}</button>
+const Button = ({color, text, onClick}) => <button style={{backgroundColor: color}} className="btn" onClick={onClick}>{text}</button>
 
 Button.defaultProps = {
   color: 'steelblue',
