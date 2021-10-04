@@ -9,6 +9,7 @@ return(
                onClick={()=>onDelete(task.id)}
       />
     </h3>
+    <p>{task.day}</p>
   </div>
 );
 }
